@@ -23,7 +23,8 @@ This project analyzes offensive formation and personnel matchups across all NFL 
 - **Formation data:** offense_formation, offense_personnel, defense_coverage_type, defense_man_zone_type, defenders_in_box, route
 
 ## Repo Structure
-'''nfl-formation-analysis/
+'''
+nfl-formation-analysis/
 ├── data/
 │   ├── raw/              # Raw play-by-play parquet files (not tracked)
 │   └── processed/        # Full dataset (not tracked)
@@ -40,7 +41,8 @@ This project analyzes offensive formation and personnel matchups across all NFL 
 │   └── figures/
 ├── src/
 ├── requirements.txt
-└── README.md'''
+└── README.md
+'''
 ## How to Run
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
